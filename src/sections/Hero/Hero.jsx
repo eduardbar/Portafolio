@@ -40,11 +40,11 @@ function Hero() {
           <br />
           Barrera
         </h1>
-        <h2>Desarrollador Frontend</h2>
+        <h2>Desarrollador Fullstack</h2>
         <span>
-          <a href="https://twitter.com/" target="_blank">
+{/*           <a href="https://twitter.com/" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
-          </a>
+          </a> */}
           <a href="https://github.com/eduardbar" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
@@ -53,8 +53,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          Desarrollador frontend con pasión por crear aplicaciones web modernas
-          en React.
+          Desarrollador Fullstack apasionado por crear aplicaciones web en react.
         </p>
         <a href={CV} download>
           <button className="hover">CV</button>
